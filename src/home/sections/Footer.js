@@ -45,7 +45,7 @@ const Footer = () => {
                 <MailIcon className="text-secondary" />
                 <div className="pl-4">
                   <h5 className="m-0 p-0 text-16">Email</h5>
-                  <p className="m-0 p-0 text-inherit">support@octoland.com</p>
+                  <p className="m-0 p-0 text-inherit">support@areoland.com</p>
                 </div>
               </div>
               <div className="px-4 mt-8 flex items-center mx--4">

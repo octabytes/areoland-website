@@ -120,7 +120,7 @@ const Intro = () => {
                   variant="extended"
                   size="large"
                   aria-label="Download"
-                  href="https://dashboard.octoland.com/sign-up"
+                  href="https://dashboard.areoland.com/sign-up"
                   className={clsx("px-6 text-18 m-2", classes.whiteButton)}
                 >
                   <AlarmOnIcon />7 days free trial
@@ -142,7 +142,7 @@ const Intro = () => {
                   <span className="text-14">per month</span> <br />
                   <span className="text-14">Get started now for free</span>
                 </a>
-                <img src="./assets/images/octoland.png" alt="OctoLand" />
+                <img src="./assets/images/areoland.png" alt="areoland" />
               </div>
             </Grid>
           </Grid>

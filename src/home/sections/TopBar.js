@@ -93,7 +93,7 @@ const TopBar = (props) => {
         </ul>
         <div className="m-auto" />
         <div className="navigation flex">
-          <a href="https://dashboard.octoland.com/sign-in" className="mr-1">
+          <a href="https://dashboard.areoland.com/sign-in" className="mr-1">
             <Button
               className="box-shadow-none px-8 rounded-l hover-bg-primary capitalize"
               variant="outlined"
@@ -102,7 +102,7 @@ const TopBar = (props) => {
               Login
             </Button>
           </a>
-          <a href="https://dashboard.octoland.com/sign-up" className="mr-1">
+          <a href="https://dashboard.areoland.com/sign-up" className="mr-1">
             <Button
               className="box-shadow-none px-8 rounded-r hover-bg-primary capitalize"
               variant="outlined"

@@ -122,7 +122,7 @@ const MoreFeatures = () => {
                 </div>
 
                 <p className="my-10 max-w-400">
-                  OctoLand provide you best user experenice while working on
+                  AreoLand provide you best user experenice while working on
                   your properties or with your vendors. Allow unlimited vendors
                   for free. No disk space limit.
                 </p>
@@ -130,7 +130,7 @@ const MoreFeatures = () => {
                   {[
                     "Unlimited disk space to upload photos/files",
                     "Speed site which work well with slow internet",
-                    "Map to view your octoland properties",
+                    "Map to view your areoland properties",
                   ].map((item) => (
                     <div key={item} className="flex items-center">
                       <DoneIcon className="mr-4" color="primary" />
