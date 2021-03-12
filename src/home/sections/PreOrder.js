@@ -58,7 +58,7 @@ const PreOrder = () => {
         </h1>
         <p className="mb-16 max-w-400 mx-auto">
           Start using our platform. Not sure about Pro account, try Trail first.
-          We are providing 7 days free trail without any credit card
+          We are providing 14 days free trail without any credit card
           requirement.
         </p>
         <Card

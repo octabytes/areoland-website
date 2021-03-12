@@ -52,7 +52,7 @@ const TopBar = (props) => {
     >
       <div className="container header-container">
         <div className="brand">
-          <img src="./assets/images/react-logo.svg" alt="" />
+          <img src="./logo.png" alt="AreoLand Logo" />
         </div>
         <ul className="navigation">
           <li>
@@ -70,11 +70,11 @@ const TopBar = (props) => {
               SignUp
             </ScrollTo>
           </li>
-          <li>
+          {/* <li>
             <ScrollTo to="reviews" onScroll={close}>
               Reviews
             </ScrollTo>
-          </li>
+          </li> */}
           <li>
             <ScrollTo to="download-app" onScroll={close}>
               App

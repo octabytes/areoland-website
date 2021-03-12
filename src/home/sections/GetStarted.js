@@ -10,7 +10,7 @@ const GetStarted = () => {
           <h1 className="mt-0 font-normal text-44 text-primary">Get Started</h1>
           <p className="max-w-400 mx-auto mb-14">
             Start using our platform. Not sure about Pro account, try Trail
-            first. We are providing 7 days free trail without any credit card
+            first. We are providing 14 days free trail without any credit card
             requirement
           </p>
           <div className="text-center">
@@ -29,7 +29,7 @@ const GetStarted = () => {
               color="primary"
               className="border-radius-8 px-6"
             >
-              GET STARTED
+              <a href="https://dashboard.areoland.com/sign-up">GET STARTED</a>
             </Button>
           </div>
         </div>

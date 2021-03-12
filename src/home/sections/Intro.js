@@ -119,11 +119,19 @@ const Intro = () => {
                 <Fab
                   variant="extended"
                   size="large"
-                  aria-label="Download"
                   href="https://dashboard.areoland.com/sign-up"
                   className={clsx("px-6 text-18 m-2", classes.whiteButton)}
                 >
-                  <AlarmOnIcon />7 days free trial
+                  <AlarmOnIcon />
+                  14 days free trial
+                </Fab>
+                <Fab
+                  variant="extended"
+                  size="large"
+                  href="https://dashboard.areoland.com/sign-up"
+                  className={clsx("px-6 text-18 m-2", classes.whiteButton)}
+                >
+                  Watch video
                 </Fab>
                 <div className="text-22 mb-10">
                   No credit card needed to get started

@@ -27,14 +27,13 @@ const Footer = () => {
     <div className={clsx("bg-light-dark", classes.footerSection)} id="footer1">
       <div className="container">
         <Grid container>
-          <Grid item lg={6} md={6} sm={12}>
+          <Grid item lg={9} md={9} sm={12}>
             <div className="p-8 h-full elevation-z3">
-              <h4 className="text-20 mb-6 relative">About Us</h4>
+              <h4 className="text-20 mb-6 relative">AreoLand</h4>
               <p className="text-inherit">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officiis perferendis rem, aut aliquam neque nam? dolor sit amet,
-                consectetur adipisicing elit consectetur adipisicing elit.
-                Officiis perferendis rem, aut aliquam.
+                Start using our platform. Not sure about Pro account, try Trail
+                first. We are providing 14 days free trail without any credit
+                card requirement.
               </p>
             </div>
           </Grid>
@@ -51,44 +50,9 @@ const Footer = () => {
               <div className="px-4 mt-8 flex items-center mx--4">
                 <RoomIcon className="text-secondary" />
                 <div className="pl-4">
-                  <h5 className="m-0 p-0 text-16">Adress</h5>
-                  <p className="m-0 p-0 text-inherit">
-                    Topoban, Akhalia Sylhet 3114, BD
-                  </p>
+                  <h5 className="m-0 p-0 text-16">WhatsApp Support</h5>
+                  <p className="m-0 p-0 text-inherit">+92 315 1101492</p>
                 </div>
-              </div>
-            </div>
-          </Grid>
-          <Grid item lg={3} md={3} sm={12}>
-            <div className="p-8 h-full elevation-z3">
-              <h4 className="text-20 mb-6 relative">Disclaimer</h4>
-              <p className="text-inherit">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officiis perferendis rem, aut aliquam neque nam?
-              </p>
-
-              <div className="mt-8">
-                <a href="#linkedin" className="px-2">
-                  <img
-                    className="h-24 w-24"
-                    src="./assets/images/social-linkedin.png"
-                    alt=""
-                  />
-                </a>
-                <a href="#twitter" className="px-2">
-                  <img
-                    className="h-24 w-24"
-                    src="./assets/images/social-twitter.png"
-                    alt=""
-                  />
-                </a>
-                <a href="#facebook" className="px-2">
-                  <img
-                    className="h-24 w-24"
-                    src="./assets/images/social-facebook.png"
-                    alt=""
-                  />
-                </a>
               </div>
             </div>
           </Grid>
