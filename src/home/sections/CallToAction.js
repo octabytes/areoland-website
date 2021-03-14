@@ -53,13 +53,23 @@ const CallToAction = () => {
             photos/files about specific property.
           </p>
           <div className="flex justify-center flex-wrap">
-            <Fab className="mr-6 px-6" variant="extended" color="primary">
+            <Fab
+              className="mr-6 px-6"
+              variant="extended"
+              color="primary"
+              href="https://docs.areoland.com/android-installation/"
+            >
               <AndroidOutlinedIcon fontSize="small" className="mr-3" />
-              Play Store
+              Android App
             </Fab>
-            <Fab className="px-6" variant="extended" color="primary">
+            <Fab
+              className="px-6"
+              variant="extended"
+              color="primary"
+              href="https://docs.areoland.com/iphone-installation/"
+            >
               <AppleIcon fontSize="small" className="mr-3" />
-              App Store
+              IOS App
             </Fab>
           </div>
         </div>
