@@ -10,6 +10,7 @@ import PreOrder from "./sections/PreOrder";
 import FAQ from "./sections/FAQ";
 import GetStarted from "./sections/GetStarted";
 import Features from "./sections/Features";
+import About from "./sections/About";
 
 const Main = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const Main = () => {
     <div className="landing">
       <TopBar />
       <Intro />
+      <About />
       <Features />
       <MoreFeatures />
       <PreOrder />

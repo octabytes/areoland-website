@@ -29,11 +29,13 @@ const Footer = () => {
         <Grid container>
           <Grid item lg={9} md={9} sm={12}>
             <div className="p-8 h-full elevation-z3">
-              <h4 className="text-20 mb-6 relative">AreoLand</h4>
+              <h4 className="text-20 mb-6 relative">About</h4>
               <p className="text-inherit">
-                Start using our platform. Not sure about Pro account, try Trail
-                first. We are providing 14 days free trail without any credit
-                card requirement.
+                AreoLand is a software for real estate agents to Manage their
+                properties in better way. Instead of keep records in hard paper
+                and saving file and photos in your local computer use AreoLand
+                to keep your data in cloud in secure way and access It from
+                anywhere.
               </p>
             </div>
           </Grid>
