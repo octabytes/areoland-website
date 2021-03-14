@@ -141,7 +141,7 @@ const Intro = () => {
             <Grid item md={6}>
               <div className={classes.product}>
                 <a
-                  href="#"
+                  href="https://dashboard.areoland.com/sign-up"
                   className={classes.productLink}
                   target="_blank"
                   rel="noopener noreferrer"
