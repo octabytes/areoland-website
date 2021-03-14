@@ -4,7 +4,7 @@ import PlayArrowIcon from "@material-ui/icons/PlayArrow";
 
 const About = () => {
   return (
-    <section className="section section-bg-light-primary" id="get-started">
+    <section className="section section-bg-light-primary" id="about">
       <div className="container">
         <div className="mx-auto">
           <h1 className="mt-0 font-normal text-44 text-primary">About</h1>

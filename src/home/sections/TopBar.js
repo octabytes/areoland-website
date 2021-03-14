@@ -61,6 +61,11 @@ const TopBar = (props) => {
             </ScrollTo>
           </li>
           <li>
+            <ScrollTo to="about" onScroll={close}>
+              About
+            </ScrollTo>
+          </li>
+          <li>
             <ScrollTo to="feature" onScroll={close}>
               Features
             </ScrollTo>
