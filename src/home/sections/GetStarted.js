@@ -19,7 +19,9 @@ const GetStarted = () => {
               color="primary"
               className="mr-4 border-radius-8 px-6"
             >
-              WATCH VIDEO
+              <a href="https://www.youtube.com/watch?v=-N-n-vRhS-w&list=PLnmEJp23mKSukBNoz6WhPDemE4dtehIF6">
+                WATCH VIDEO
+              </a>
               <div className="bg-primary ml-2 w-20 h-20 rounded flex justify-center items-center">
                 <PlayArrowIcon className="text-white text-13" />
               </div>

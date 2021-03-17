@@ -128,7 +128,7 @@ const Intro = () => {
                 <Fab
                   variant="extended"
                   size="large"
-                  href="https://dashboard.areoland.com/sign-up"
+                  href="https://www.youtube.com/watch?v=-N-n-vRhS-w&list=PLnmEJp23mKSukBNoz6WhPDemE4dtehIF6"
                   className={clsx("px-6 text-18 m-2", classes.whiteButton)}
                 >
                   Watch video
