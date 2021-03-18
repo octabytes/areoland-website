@@ -128,7 +128,7 @@ const Intro = () => {
                 <Fab
                   variant="extended"
                   size="large"
-                  href="https://www.youtube.com/watch?v=-N-n-vRhS-w&list=PLnmEJp23mKSukBNoz6WhPDemE4dtehIF6"
+                  href="https://www.youtube.com/watch?v=p6-nawU2IHI&list=PLY5nMiRWs-1pvxAZlUm4Uq2aT6S_YHWpa&index=1"
                   className={clsx("px-6 text-18 m-2", classes.whiteButton)}
                 >
                   Watch video
