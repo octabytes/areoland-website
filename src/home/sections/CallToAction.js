@@ -48,9 +48,9 @@ const CallToAction = () => {
         <div className={clsx("text-center mx-auto", classes.wrapper)}>
           <h1 className="mt-0 mb-7 font-normal text-44">Download Now !</h1>
           <p className="max-w-400 mx-auto mb-8">
-            We have also mobile apps on both andorid and apple store for
-            vendors. Which help alot to vendors when they have to upload
-            photos/files about specific property.
+            AreoLand also provide mobile apps on both android and apple store
+            for you and your vendors. Which help you uploading photos/files
+            about specific property or adding new properties.
           </p>
           <div className="flex justify-center flex-wrap">
             <Fab

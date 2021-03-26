@@ -5,12 +5,15 @@ import Intro from "./sections/Intro";
 import Footer from "./sections/Footer";
 import CallToAction from "./sections/CallToAction";
 import Testimonial from "./sections/Testimonial";
-import MoreFeatures from "./sections/MoreFeatures";
 import PreOrder from "./sections/PreOrder";
 import FAQ from "./sections/FAQ";
 import GetStarted from "./sections/GetStarted";
-import Features from "./sections/Features";
 import About from "./sections/About";
+import AddPropertyFeature from "./sections/AddPropertyFeature";
+import UploadPhotoFeature from "./sections/UploadPhotoFeature";
+import MapFeature from "./sections/MapFeature";
+import ReminderFeature from "./sections/ReminderFeature";
+import VendorFeature from "./sections/VendorFeature";
 
 const Main = () => {
   useEffect(() => {
@@ -22,8 +25,11 @@ const Main = () => {
       <TopBar />
       <Intro />
       <About />
-      <Features />
-      <MoreFeatures />
+      <AddPropertyFeature />
+      <UploadPhotoFeature />
+      <MapFeature />
+      <ReminderFeature />
+      <VendorFeature />
       <PreOrder />
       {/* <Testimonial /> */}
       <CallToAction />

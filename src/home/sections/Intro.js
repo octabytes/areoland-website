@@ -1,21 +1,18 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import CheckIcon from "@material-ui/icons/Check";
-import AlarmOnIcon from "@material-ui/icons/AlarmOn";
+import Icon from "@material-ui/core/Icon";
 import Fab from "@material-ui/core/Fab";
 import { makeStyles, darken } from "@material-ui/core/styles";
 import clsx from "clsx";
 
 const useStyles = makeStyles(({ palette, ...theme }) => ({
-  section: {
-    backgroundColor: "#e1f5fe",
-  },
   introWrapper: {
     padding: "5rem 0px !important",
     overflow: "visible !important",
-    backgroundColor: "#e1f5fe",
+    background:
+      "url(./assets/images/home-bg.jpg) center center/cover no-repeat",
     "& h1, h2, h3, h4, h5, h6": {
-      color: "#000000",
+      color: "#fff",
     },
 
     [theme.breakpoints.down("sm")]: {
@@ -81,11 +78,11 @@ const Intro = () => {
 
   return (
     <section
-      className={clsx("section text-white")}
-      id="intro"
-      style={{ backgroundColor: "#2399F0" }}
+      className={clsx("text-white")}
+      style={{ paddingTop: "5rem" }}
+      id="intro1"
     >
-      <div className={classes.introWrapper} style={{ color: "#000000" }}>
+      <div className={classes.introWrapper}>
         <div className="container">
           <Grid container spacing={3} justify="center">
             <Grid item md={6}>
@@ -98,20 +95,40 @@ const Intro = () => {
 
               <div className="mb-10 list">
                 <div className="flex items-center mb-4">
-                  <CheckIcon color="secondary" className="mr-2" />
-                  Unlimited properties added.
+                  <Icon color="secondary" className="mr-2">
+                    check
+                  </Icon>
+                  Add unlimited properties
                 </div>
                 <div className="flex items-center mb-4">
-                  <CheckIcon color="secondary" className="mr-2" />
-                  Add properties near to you.
+                  <Icon color="secondary" className="mr-2">
+                    check
+                  </Icon>
+                  Upload unlimited photos/files no storage limit.
                 </div>
                 <div className="flex items-center mb-4">
-                  <CheckIcon color="secondary" className="mr-2" />
-                  Unlimited Photo/files upload.
+                  <Icon color="secondary" className="mr-2">
+                    check
+                  </Icon>
+                  Easily find properties in MAP
                 </div>
                 <div className="flex items-center mb-4">
-                  <CheckIcon color="secondary" className="mr-2" />
-                  Unlimited Vendor members.
+                  <Icon color="secondary" className="mr-2">
+                    check
+                  </Icon>
+                  GPS system to find place location from Photo
+                </div>
+                <div className="flex items-center mb-4">
+                  <Icon color="secondary" className="mr-2">
+                    check
+                  </Icon>
+                  Set reminders for your import tasks
+                </div>
+                <div className="flex items-center mb-4">
+                  <Icon color="secondary" className="mr-2">
+                    check
+                  </Icon>
+                  Create free sub accounts with Vendor System
                 </div>
               </div>
 
@@ -119,23 +136,25 @@ const Intro = () => {
                 <Fab
                   variant="extended"
                   size="large"
-                  href="https://dashboard.areoland.com/sign-up"
-                  className={clsx("px-6 text-18 m-2", classes.whiteButton)}
+                  color="primary"
+                  href="https://www.youtube.com/watch?v=p6-nawU2IHI&list=PLY5nMiRWs-1pvxAZlUm4Uq2aT6S_YHWpa&index=1"
+                  aria-label="Intro Video"
+                  className="px-6 text-18 m-2"
                 >
-                  <AlarmOnIcon />
-                  14 days free trial
+                  <Icon className="mr-4">movie</Icon>
+                  Watch Video
                 </Fab>
+
                 <Fab
                   variant="extended"
                   size="large"
-                  href="https://www.youtube.com/watch?v=p6-nawU2IHI&list=PLY5nMiRWs-1pvxAZlUm4Uq2aT6S_YHWpa&index=1"
+                  aria-label="Sign Up"
+                  href="https://dashboard.areoland.com/sign-up"
                   className={clsx("px-6 text-18 m-2", classes.whiteButton)}
                 >
-                  Watch video
+                  <Icon className="mr-4">alarm_on</Icon>
+                  14 days free trial
                 </Fab>
-                <div className="text-22 mb-10">
-                  No credit card needed to get started
-                </div>
               </div>
             </Grid>
             <Grid item md={6}>
@@ -143,14 +162,15 @@ const Intro = () => {
                 <a
                   href="https://dashboard.areoland.com/sign-up"
                   className={classes.productLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <div className="text-32 font-bold">$19.97</div>
                   <span className="text-14">per month</span> <br />
                   <span className="text-14">Get started now for free</span>
                 </a>
-                <img src="./assets/images/areoland.png" alt="areoland" />
+                <img
+                  src="./assets/images/areoland.png"
+                  alt="AreoLand Dashboard"
+                />
               </div>
             </Grid>
           </Grid>

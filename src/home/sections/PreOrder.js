@@ -43,11 +43,14 @@ const PreOrder = () => {
   const classes = useStyles();
 
   const featureList = [
+    "Add unlimited properties",
+    "Upload unlimited photos/files",
     "Unlimited Disk Space",
-    "Unlimited Vednors",
-    "Seperate Dashboard for vendors",
+    "Easily find properties in MAP",
+    "GPS system to find place location from Photo",
+    "Set Reminder for your important Tasks",
+    "Free sub account with Vendor System",
     "Enhanced Security",
-    "Many more...",
   ];
 
   return (
@@ -92,7 +95,7 @@ const PreOrder = () => {
           </div>
 
           <Button className="rounded px-6" variant="contained" color="primary">
-            SignUp Now
+            <a href="https://dashboard.areoland.com/sign-up">SignUp Now</a>
           </Button>
         </Card>
       </div>

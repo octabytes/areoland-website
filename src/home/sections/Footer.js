@@ -32,10 +32,13 @@ const Footer = () => {
               <h4 className="text-20 mb-6 relative">About</h4>
               <p className="text-inherit">
                 AreoLand is a software for real estate agents to Manage their
-                properties in better way. Instead of keep records in hard paper
-                and saving file and photos in your local computer use AreoLand
-                to keep your data in cloud in secure way and access It from
-                anywhere.
+                properties in better way. Real Estate Agents need to keep
+                records about their properties or houses. Most of the agents
+                have many properties and number of house to sell or rent. Each
+                property and house contain number of photos. So keeping all
+                these information is headache for estate agents. That's why
+                AreoLand is handy way to keep all these things in better way and
+                make your life easy.
               </p>
             </div>
           </Grid>

@@ -48,7 +48,6 @@ const TopBar = (props) => {
         "header-fixed": !isTop,
         closed: isClosed,
       })}
-      style={{ backgroundColor: "#e1f5fe" }}
     >
       <div className="container header-container">
         <div className="brand">
@@ -85,11 +84,11 @@ const TopBar = (props) => {
               App
             </ScrollTo>
           </li>
-          <li>
+          {/* <li>
             <ScrollTo to="faqs" onScroll={close}>
               FAQs
             </ScrollTo>
-          </li>
+          </li> */}
           <li>
             <ScrollTo to="get-started" onScroll={close}>
               Demo
