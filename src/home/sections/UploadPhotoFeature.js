@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Grid, Button, Icon } from "@material-ui/core";
+import { Grid, useMediaQuery } from "@material-ui/core";
 
 const tubeStyle = {
   height: 64,
@@ -74,13 +74,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
     [theme.breakpoints.down("sm")]: {
-      display: "block",
-      "&::after": {
-        display: "none",
-      },
-      "&::before": {
-        display: "none",
-      },
+      display: "none",
     },
   },
 }));
@@ -88,8 +82,11 @@ const useStyles = makeStyles((theme) => ({
 const UploadPhotoFeature = () => {
   const classes = useStyles();
 
+  const isMobile = useMediaQuery("(max-width: 768px");
+  const sectionPadding = isMobile ? { padding: 0 } : { padding: "5rem 0" };
+
   return (
-    <section className="section">
+    <section className="section" style={sectionPadding}>
       <div className="container">
         <Grid container spacing={3} alignItems="center">
           <Grid item lg={6} md={6} sm={6} xs={12}>

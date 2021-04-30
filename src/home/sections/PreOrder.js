@@ -1,5 +1,12 @@
 import React from "react";
-import { Card, Button, Divider, Icon, IconButton } from "@material-ui/core";
+import {
+  Card,
+  Button,
+  Divider,
+  Icon,
+  IconButton,
+  useMediaQuery,
+} from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import TieIcon from "../common/icons/TieIcon";
@@ -53,9 +60,12 @@ const PreOrder = () => {
     "Enhanced Security",
   ];
 
+  const isMobile = useMediaQuery("(max-width: 768px");
+  const textCenter = isMobile ? "" : "text-center";
+
   return (
     <section className="section" id="signup">
-      <div className="container text-center">
+      <div className={`container ${textCenter}`}>
         <h1 className="mt-0 font-normal text-44 mx-auto">
           Start <span className="text-primary">Today</span>
         </h1>

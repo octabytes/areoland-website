@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { debounce, classList } from "utils";
 import Icon from "@material-ui/core/Icon";
 import IconButton from "@material-ui/core/IconButton";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import ScrollTo from "../common/ScrollTo";
 import { Button } from "@material-ui/core";
 

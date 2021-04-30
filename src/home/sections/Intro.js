@@ -21,7 +21,7 @@ const useStyles = makeStyles(({ palette, ...theme }) => ({
       "& .list": {
         display: "flex",
         flexDirection: "column",
-        alignItems: "center",
+        // alignItems: "center",
       },
     },
   },

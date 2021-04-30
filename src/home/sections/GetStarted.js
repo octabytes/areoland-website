@@ -1,8 +1,11 @@
 import React from "react";
-import { Button } from "@material-ui/core";
+import { Button, useMediaQuery } from "@material-ui/core";
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";
 
 const GetStarted = () => {
+  const isMobile = useMediaQuery("(max-width: 768px");
+  const marginTop = isMobile ? "mt-4" : "";
+
   return (
     <section className="section section-bg-light-primary" id="get-started">
       <div className="container">
@@ -29,7 +32,7 @@ const GetStarted = () => {
             <Button
               variant="contained"
               color="primary"
-              className="border-radius-8 px-6"
+              className={`border-radius-8 px-6 ${marginTop}`}
             >
               <a href="https://dashboard.areoland.com/sign-up">GET STARTED</a>
             </Button>
